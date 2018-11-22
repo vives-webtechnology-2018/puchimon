@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
   fightButton.addEventListener('click', prepareAttack)
 })
 
-const attack = function (atacker, victim) {
+const attack = function (attacker, victim) {
   // TODO: make a real attack here
-  return `${atacker.name} fought with ${victim.name}. 
+  return `${attacker.name} fought with ${victim.name}. 
     ${victim.name} has now ${victim.health} health remaining`
 }
 
