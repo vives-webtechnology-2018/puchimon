@@ -16,6 +16,7 @@ names.forEach((name) => {
 })
 
 const showPuchimons = function(puchimons) {
+  clearList()
   puchimons.forEach((puchimon, index) => {
     const row = document.createElement('tr')
     const rankColumn = document.createElement('td')
@@ -62,6 +63,15 @@ const prepareAttack = function () {
   listItem.textContent = result
 
   historyList.appendChild(listItem)
+
+  showPuchimons(puchimons)
 }
 
-
+const clearList = function () {
+  const rows = document.querySelectorAll('#playersList table tr')
+  rows.forEach((row, index) => {
+    if (index !== 0) {
+      row.remove()
+    }
+  })
+}
