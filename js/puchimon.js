@@ -40,6 +40,9 @@ const showPuchimons = function(puchimons) {
 
 document.addEventListener('DOMContentLoaded', () => {
   showPuchimons(puchimons)
+
+  const fightButton = document.getElementById('fightButton')
+  fightButton.addEventListener('click', prepareAttack)
 })
 
 const attack = function (atacker, victim) {
@@ -47,3 +50,9 @@ const attack = function (atacker, victim) {
   return `${atacker.name} fought with ${victim.name}. 
     ${victim.name} has now ${victim.health} health remaining`
 }
+
+const prepareAttack = function () {
+  console.log('preparing attack...')
+}
+
+
