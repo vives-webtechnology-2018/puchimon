@@ -1,0 +1,1 @@
+console.log('Weclome to the Puchimon App')
