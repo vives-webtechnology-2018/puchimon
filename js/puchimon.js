@@ -52,7 +52,16 @@ const attack = function (attacker, victim) {
 }
 
 const prepareAttack = function () {
-  console.log('preparing attack...')
+  // TODO: choose random attacker and victim
+  const attacker = puchimons[0]
+  const victim = puchimons[1]
+  const result = attack(attacker, victim)
+
+  const historyList = document.getElementById('historyList')
+  const listItem = document.createElement('li')
+  listItem.textContent = result
+
+  historyList.appendChild(listItem)
 }
 
 
