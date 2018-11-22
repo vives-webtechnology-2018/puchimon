@@ -14,3 +14,28 @@ const createPuchimon = function (name) {
 names.forEach((name) => {
   puchimons.push(createPuchimon(name))
 })
+
+const showPuchimons = function(puchimons) {
+  puchimons.forEach((puchimon, index) => {
+    const row = document.createElement('tr')
+    const rankColumn = document.createElement('td')
+    const nameColumn = document.createElement('td')
+    const healthColumn = document.createElement('td')
+    const damageColumn = document.createElement('td')
+
+    rankColumn.textContent = `#${index + 1}`
+    nameColumn.textContent = puchimon.name
+    healthColumn.textContent = puchimon.health
+    damageColumn.textContent = puchimon.damage
+
+    row.appendChild(rankColumn)
+    row.appendChild(nameColumn)
+    row.appendChild(healthColumn)
+    row.appendChild(damageColumn)
+
+    const table = document.querySelector('#playersList table')
+    table.appendChild(row)
+  })
+}
+
+showPuchimons(puchimons)
