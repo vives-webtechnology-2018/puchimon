@@ -40,5 +40,4 @@ const showPuchimons = function(puchimons) {
 
 document.addEventListener('DOMContentLoaded', () => {
   showPuchimons(puchimons)
-
 })
