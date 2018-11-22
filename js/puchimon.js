@@ -41,3 +41,9 @@ const showPuchimons = function(puchimons) {
 document.addEventListener('DOMContentLoaded', () => {
   showPuchimons(puchimons)
 })
+
+const attack = function (atacker, victim) {
+  // TODO: make a real attack here
+  return `${atacker.name} fought with ${victim.name}. 
+    ${victim.name} has now ${victim.health} health remaining`
+}
