@@ -38,4 +38,7 @@ const showPuchimons = function(puchimons) {
   })
 }
 
-showPuchimons(puchimons)
+document.addEventListener('DOMContentLoaded', () => {
+  showPuchimons(puchimons)
+
+})
