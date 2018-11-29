@@ -17,3 +17,4 @@ The application that was developed, still hase some missing peaces to be fully f
 ## Report
 
 Don't forget to fill in the [REPORT.md](REPORT.md) at the end of the exercise.
+Don't forget to upload your project to [netlify.com](https://www.netlify.com) and mention your link in the report.

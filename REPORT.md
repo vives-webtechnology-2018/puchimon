@@ -3,7 +3,7 @@
 
 **Name**: <!-- TODO: fill in your full name here, firstname and lastname -->
 
-**edabit profile URL**: <!-- TODO: paste the full edabit profile URL eg: https://edabit.com/user/cwDBQlksduOksdf  -->
+**URL**: <!-- TODO: paste the full netlify URL to the solution of this exercise  -->
 
 ---
 
