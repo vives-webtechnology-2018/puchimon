@@ -15,6 +15,8 @@ The application that was developed, still hase some missing peaces to be fully f
 - [ ] Order the puchimons in the playersList in order of there health. The healthy players shown on top, dead players shown on the bottom
 - [ ] Show a red background color for dead Puchimons in the table
 
+**Important!**:  Try to commit each part of the exercise in a separate commit with a _meaningful_  commit message
+
 ## Report
 
 Don't forget to fill in the [REPORT.md](REPORT.md) at the end of the exercise.
