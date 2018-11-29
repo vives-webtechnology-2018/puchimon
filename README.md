@@ -7,6 +7,7 @@ The application that was developed, still hase some missing peaces to be fully f
 
 ## Excercise
 
+- [ ] Choose your own names for the Puchimons, and add at least 6 names
 - [ ] Implement the actual fight method that will subtract the damage from the attacker of the health of the victim
 - [ ] Choose a random attacker and random victim
 - [ ] Make sure that the attacker and victim are not the same Puchimon
